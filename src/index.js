@@ -8,9 +8,11 @@ import { ThemeProvider } from './context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <BrowserRouter>
   <ThemeProvider>
     <App />
     </ThemeProvider>
+    </BrowserRouter>
   
 );
 

@@ -1,0 +1,24 @@
+.home{
+    padding-top: 89px;
+    background-color: rgb(13,27, 48);
+    
+
+}
+.home-div{
+    color: white;
+    text-align: left;
+}
+.home-div>button{
+    padding: 15px 30px;
+    font-size: 21px;
+    border-radius: 13px;
+    background-color: teal;
+    border: 0px solid;
+}
+.anchor{
+    
+    height: 100px;
+    display: flex;
+    width: 159px;
+    
+}

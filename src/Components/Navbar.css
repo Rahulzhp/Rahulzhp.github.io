@@ -23,13 +23,29 @@
     border: 4px solid #fff;
 }
 
+
+.wrapper-n {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    font-family: montserrat, sans-serif;
+    background-color: rgb(13, 27, 48);
+    
+   
+}
+.n-right {
+    
+    padding-right: 115px;
+}
+
 .n-right ul {
     display: flex;
     list-style: none;
+    color: white;
 }
 
 .n-right ul li a {
-    margin: 0 10px;
+    margin: 0 15px;
     cursor: pointer;
     transition: color 0.8s ease-in-out;
 }

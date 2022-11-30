@@ -1,15 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Navbar from './Components/Header';
-import About from './Components/About';
-import Header from './Components/Header';
-import resumeData from './ResumeData';
+import About from "./Components/About"
+import resumeData from "./resumeData";
+import Header from "./Components/Header"
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
 
 function App() {
   return (
     <div className="App">
-       
-      <About/>
+      <Navbar/>
+      <Home/>
+      <About resumeData={resumeData}/>
+      
     </div>
   );
 }
