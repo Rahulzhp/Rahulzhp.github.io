@@ -1,60 +1,6 @@
-.a-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    padding: 40px 60px;
-    height: 100vh;
-    /* padding: 150px 0; */
+.about{
+    background-color: rgb(13, 29, 41);
 }
-
-.a-title {
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.a-sub {
-    margin: 20px 0;
-    font-size: 25px;
-    letter-spacing: 0.6px;
-}
-
-.a-desc {
-    font-weight: 300;
-    font-size: 20px;
-    letter-spacing: 2px;
-}
-
-.connect-at {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-top: 20px;
-}
-
-.connect-at a {
-    font-weight: 300;
-    display: block;
-    font-size: 22px;
-    letter-spacing: 2px;
-    text-decoration: none;
-    color: #4070f4;
-}
-
-.connect-icon {
-    margin-right: 12px;
-}
-
-.connect-at .connect-icon svg {
-    text-decoration: none;
-    width: 2rem;
-    height: 2rem;
-    fill: white;
-}
-
 @media only screen and (max-width: 768px) {
     .a-content {
         flex-direction: column;

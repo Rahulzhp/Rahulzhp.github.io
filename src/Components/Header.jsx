@@ -1,4 +1,6 @@
 import React from 'react';
+import { Icon } from '@chakra-ui/react'
+import { MdSettings } from 'react-icons/md'
 const Header=({resumeData})=> {
  
   

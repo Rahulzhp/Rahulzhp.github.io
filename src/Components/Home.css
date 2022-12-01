@@ -7,9 +7,11 @@
 .home-div{
     color: white;
     text-align: left;
+    margin-left: 31px;
 }
 .home-div>button{
     padding: 15px 30px;
+    margin-top: -3px;
     font-size: 21px;
     border-radius: 13px;
     background-color: teal;

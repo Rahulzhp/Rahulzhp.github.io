@@ -8,14 +8,14 @@ const Home = () => {
 
                 <SimpleGrid w="fit-content" spacing={3} columns={[1, 2]}>
                     <div>
-                        <Image src="https://avatars.githubusercontent.com/u/107567053?v=4" alt="ral"></Image>
+                        <Image  src="https://avatars.githubusercontent.com/u/107567053?v=4" alt="ral"></Image>
 
                     </div>
                     <div className="home-div">
-                        <h1>Hi..</h1>
-                        <h2>I'm  Rahul Das</h2>
-                        <Text style={{paddingRight:"115px", fontSize:"18px"}}>A full-stack React Js developer trained by Masai School, Bengaluru. I have a passion to create useful projects 
-                            and systems which can contribute in everyone's wellbeing. I go to full extent in execution.</Text>
+                        <h1 style={{color:"teal",marginTop:"3px"}}>Hi.. <Image style={{width:"9%"}} src="https://cdn-icons-png.flaticon.com/128/2339/2339864.png" alt="hlw"></Image></h1>
+                        <h1 style={{marginTop:"-7px"}}>I'm  Rahul Das</h1>
+                        <Text style={{padding:"0px", fontSize:"63px", marginTop:"-15px",lineHeight:"69px"}}>FULL - STACK <br></br> WEB DEVELOPER</Text>
+                        <Text style={{marginTop:"-25px"}}>Full stack developer who cares deeply about user experience.</Text>
                         <button>Resume</button>
                         <div className="anchor">
                             <Image style={{width:"25%",margin:"auto"}} src="https://www.edigitalagency.com.au/wp-content/uploads/Linkedin-logo-icon-png.png" alt="lin"></Image> 

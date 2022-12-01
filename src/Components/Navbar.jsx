@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import Link from "react-scroll/modules/components/Link";
+import { Icon } from '@chakra-ui/react'
+import { MdSettings } from 'react-icons/md';
+
 import "./Navbar.css";
 
 
@@ -15,6 +18,7 @@ const Navbar = () => {
             <Link to="intro" smooth={true}>
               <h2 style={{width:"190px",color:"white",paddingLeft:"175px", fontFamily:"cursive"}}>Rahul Das</h2>
               
+              
             </Link>
           </div>
         </div>
@@ -22,6 +26,7 @@ const Navbar = () => {
           <div className="mobile-menu">
             {!drawer ? (
               <div onClick={() => setDrawer(true)} className="menu-icon">
+               
 
               </div>
             ) : (
