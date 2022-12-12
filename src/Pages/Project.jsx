@@ -20,7 +20,7 @@ function Project(){
             img: "https://i.ibb.co/GckpFrQ/Screenshot-187.png",
             type: "Collaborative",
             desc: "Rodan + Fields is a skincare website which allows users to buy Best Skincare products  and also helps to cure skin diseases from expert. ",
-            techstack: "HTML, CSS, JavaScript",
+            techstack: "JavaScript, html,css",
             livelink: "https://rodan-fileds-12-masai.netlify.app/",
             gitlink: "https://github.com/imrangadwal10/zonked-instrument-5361"
         },
@@ -60,8 +60,10 @@ function Project(){
                                     <Image w={["100%", "97%", "60%"]} m="auto" src={project.img} alt="project-thumbnail" />
                                     <Box w={["100%", "97%", "39%"]} m="auto">
                                         <Text fontSize={["2xl", "3xl", "4xl"]}>{project.name}</Text>
-                                        <Text fontSize={["xl", "2xl", "3xl"]}>( {project.type} )</Text>
-                                        <Text w={["100%", "90%", "70%"]} m="auto" fontFamily="cursive" textAlign="justify" fontSize={["sm", "md", "md"]}>{project.desc}</Text>
+                                        <Text w={["100%", "90%", "70%"]} m="auto" fontFamily="inherit" textAlign="justify" fontSize={["sm", "md", "md"]}>{project.desc}
+                                        <Text fontSize={["sm", "md", "md"]} fontWeight="bold" > {project.type} </Text>
+                                        </Text>
+                                        
                                         <Text w="85%" m="auto" fontSize={["md", "mlgd", "xl"]} fontWeight="bold">Techstacks :-{project.techstack}</Text>
                                         <Box display="flex" w={["100%", "80%", "100%"]} m="auto" justifyContent="space-around">
                                             {/* <Button  _hover={{bg:"#4E406F", color:"#ffffff"}} mt="10px" p={["5px 5px", "10px 10px", "10px 10px"]} fontSize={["md", "lg", ";g"]} bg="#C1B6DB" color="#13022c" border="none" variant='solid' leftIcon={<BiLinkExternal />}><a href={project.livelink} rel="noreferrer" target="_blank">Live</a></Button>

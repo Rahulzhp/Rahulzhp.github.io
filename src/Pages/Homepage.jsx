@@ -34,7 +34,7 @@ function Homepage(){
                 <Box h="574px" w="85%" color={darkTheme==="dark"? "#d3cedb" : "#13022C"} m="auto" display={["inline", "inline", "flex"]} alignItems="center" justifyContent="space-around">
                     <Box mt={["50px", "50px", "0px"]} w={["100%", "100%", "60%"]}>
                         <Box textAlign="left" pl={["20px", "60px", "20px"]}>
-                            <Text fontWeight="500" color="white" fontFamily="sans-serif" display="flex" alignItems="center" fontSize={["2xl", "3xl", "4xl"]}>Hi <Image boxSize={["30px", "40px", "50px"]}  src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/waving-hand_1f44b.gif" alt="img" />, my name is</Text>
+                            <Text fontWeight="500" color="white" fontFamily="sans-serif" display="flex" alignItems="center" fontSize={["2xl", "3xl", "4xl"]}>Hi <Image boxSize={["30px", "40px", "50px"]}  src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/waving-hand_1f44b.gif" alt="img" /></Text>
                             <Text fontFamily="inherit" color="white" fontWeight={600} fontSize={["5xl", "6xl", "7xl"]}>Rahul Das</Text>
                             <Box fontFamily="sans-serif" color="white" fontSize={["2xl", "3xl", "4xl"]}>
                                 <Typewriter
@@ -58,7 +58,7 @@ function Homepage(){
                         </Box>
                     {/* <Image position="absolute" top={["-10", "-10", "-20"]} left={["", "", "-8"]} src="https://www.wallpaperuse.com/wallp/56-561836_m.png" alt="img" /> */}
                 </Box>
-                <Box _hover={{transform:"scale(1.03)", transitionProperty: "transform", transitionDuration: "0.5s"}} bg={darkTheme==="dark"? "#C4A9EC" : "white"} p="3px" w={["45%", "31%", "35%"]} m="20px auto 40px auto" rounded={["50%", "50%", "50%"]}>
+                <Box _hover={{transform:"scale(1.03)", transitionProperty: "transform", transitionDuration: "0.5s"}} bg={darkTheme==="dark"? "#C4A9EC" : "white"} p="3px" w={["42%", "30%", "29%"]} m="20px auto 40px auto" rounded={["50%", "50%", "50%"]}>
                     <Image boxShadow="xl" w="100%" rounded={["50%", "50%", "50%"]} src="https://avatars.githubusercontent.com/u/107567053?v=4" alt="img" />
                 </Box>
                 {/* <Image w="400px" h="200px" src="https://res.cloudinary.com/practicaldev/image/fetch/s--2bZIjPGC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/d4tvukbt5mra37cvwklk.gif" alt="img" /> */}
