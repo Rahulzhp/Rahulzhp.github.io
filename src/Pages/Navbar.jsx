@@ -46,7 +46,7 @@ function Navbar(){
                 <Link display="flex">
                     <AnchorLink href='#Contact'><Text color={darkTheme==="dark"?  "gray":"white" } fontFamily="inherit" fontWeight="500" fontSize={['sm', 'sm', 'lg']}>Contact</Text></AnchorLink>
                 </Link>
-                <Text color={darkTheme==="dark"?  "gray":"white" } fontFamily="cursive" fontWeight="500" fontSize={['sm', 'sm', 'lg']}><a href="https://drive.google.com/file/d/1fHs0WXpCaHcAUypp7c8C1qIGgH1xVYuH/view" rel="noreferrer" target="_blank">Resume</a></Text>
+                <Text color={darkTheme==="dark"?  "gray":"white" } fontFamily="inherit" fontWeight="500" fontSize={['sm', 'sm', 'lg']}><a href="https://drive.google.com/uc?export=download&id=1fHs0WXpCaHcAUypp7c8C1qIGgH1xVYuH">Resume</a></Text>
             </Box>
         </Box>
     </Box>
