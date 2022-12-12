@@ -51,8 +51,8 @@ function Contacts(){
                         <Text textDecoration="underline" fontSize={["sm", "md", "lg"]}><a href="https://www.linkedin.com/in/rahul-das-787a66246/" rel="noreferrer" target="_blank">https://www.linkedin.com/in/rahul-das-787a66246/</a></Text>
                     </Box>
                     <Box display={["inline", "flex", "flex"]} gap={["", "10px", "15px"]} alignItems="center">
-                        <Icon  w={["40px", "30px", "40px"]} h="50px" color='white' />
-                        <Text textDecoration="underline" fontSize={["sm", "md", "xl"]}><a href="" rel="noreferrer" target="_blank"></a></Text>
+                        <Icon as={AiOutlineLink} w={["40px", "30px", "40px"]} h="50px" color='white' />
+                        <Text textDecoration="underline" fontSize={["sm", "md", "xl"]}><a href="https://rahulzhp.github.io/" rel="noreferrer" target="_blank"></a>https://rahulzhp.github.io/</Text>
                     </Box>
                 </Box>
             </Box>

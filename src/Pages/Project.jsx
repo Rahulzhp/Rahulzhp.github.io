@@ -24,15 +24,7 @@ function Project(){
             livelink: "https://rodan-fileds-12-masai.netlify.app/",
             gitlink: "https://github.com/imrangadwal10/zonked-instrument-5361"
         },
-        {
-            name: "Meanbuy Clone",
-            img: "https://i.ytimg.com/vi/cAw5-Oe0hBM/maxresdefault.jpg",
-            type: "Individual",
-            desc: "An E-Commerce website having the unique feature which allows the users to sell their products as well. User can Login, Signup, Visit Seller's Page, Whatsapp Page, etc.",
-            techstack: "HTML, CSS, JavaScript",
-            livelink: "https://resilient-seahorse-6f4d05.netlify.app/",
-            gitlink: "https://github.com/sanghamitra0591/murky-rate-2238"
-        },
+        
         // {
         //     name: "Slideshow Maker",
         //     img: "",

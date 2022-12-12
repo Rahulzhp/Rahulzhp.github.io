@@ -49,11 +49,11 @@ function Homepage(){
                                     }}
                                 />
                             </Box>
-                            <Button _hover={{transform:"scale(1.1)", bg:"#92bcb5", color:darkTheme==="dark"? "black" : "black"}} mt="10px" p={["15px 15px", "20px 20px", "25px 25px"]} fontSize={["md", "lg", "xl"]} bg={darkTheme==="dark"? "#1777F5" :"#1777F5"} color={darkTheme==="dark"? "white" : "white"}  variant='solid' leftIcon={<DownloadIcon />}>
+                            <Button _hover={{transform:"scale(1.1)", bg:"#92bcb5", color:darkTheme==="dark"? "black" : "black"}} mt="10px" p={["15px 15px", "20px 20px", "25px 25px"]} fontSize={["md", "lg", "xl"]} bg={darkTheme==="dark"? "#48B3E9 " :"#48B3E9 "} color={darkTheme==="dark"? "white" : "white"}  variant='solid' leftIcon={<DownloadIcon />}>
                             <a href="https://drive.google.com/file/d/1fHs0WXpCaHcAUypp7c8C1qIGgH1xVYuH/view" rel="noreferrer" target="_blank">Resume</a></Button>
                             <Box mt="15px" gap="15px" display="flex" color="#13022c">
-                                <a href="https://github.com/Rahulzhp" rel="noreferrer" target="_blank"><Button _hover={{transform:"scale(1.13)",bg:"#92bcb5",color:"black"}} pr="0px"pl="5px" fontSize={["2xl", "3xl", "4xl"]} bg={darkTheme==="dark"? "#1777F5" : "#1777F5"} color={darkTheme==="dark"? "white" : "white"}  variant='solid' leftIcon={<AiOutlineGithub />}></Button></a>
-                                <a href="https://www.linkedin.com/in/rahul-das-787a66246/" rel="noreferrer" target="_blank"><Button _hover={{transform:"scale(1.13)",color:"black", bg:"#92bcb5"}} pr="0px" pl="5px" fontSize={["2xl", "3xl", "4xl"]} bg={darkTheme==="dark"? "#1777F5" : "#1777F5"} color={darkTheme==="dark"? "white" : "white"}  variant='solid' leftIcon={<AiOutlineLinkedin />}></Button></a>
+                                <a href="https://github.com/Rahulzhp" rel="noreferrer" target="_blank"><Button _hover={{transform:"scale(1.13)",bg:"#92bcb5",color:"black"}} pr="0px"pl="5px" fontSize={["2xl", "3xl", "4xl"]} bg={darkTheme==="dark"? "#48B3E9 " : "#48B3E9 "} color={darkTheme==="dark"? "white" : "white"}  variant='solid' leftIcon={<AiOutlineGithub />}></Button></a>
+                                <a href="https://www.linkedin.com/in/rahul-das-787a66246/" rel="noreferrer" target="_blank"><Button _hover={{transform:"scale(1.13)",color:"black", bg:"#92bcb5"}} pr="0px" pl="5px" fontSize={["2xl", "3xl", "4xl"]} bg={darkTheme==="dark"? "#48B3E9 " : "#48B3E9 "} color={darkTheme==="dark"? "white" : "white"}  variant='solid' leftIcon={<AiOutlineLinkedin />}></Button></a>
                             </Box>
                         </Box>
                     {/* <Image position="absolute" top={["-10", "-10", "-20"]} left={["", "", "-8"]} src="https://www.wallpaperuse.com/wallp/56-561836_m.png" alt="img" /> */}

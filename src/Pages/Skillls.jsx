@@ -159,10 +159,10 @@ return <Box id="Skills" w="full" bg="#13022C" color="#ffffff" p="30px 0px" mt="-
             <Text textAlign="center" mb="15px"  fontWeight="400" fontSize={["3xl", "4xl", "5xl"]}>Technical Skills</Text>
             <Tabs variant='unstyled'>
                 <TabList m="10px auto" w={["80%", "85%", "55%"]} gap="5px" justifyContent="space-between">
-                    <Tab p={["5px", "10px", "8px 10px"]} fontSize={["10px", "15px", "20px"]} bg="#C1B6DB" _selected={{ color: '#13022c', bg: '#92bcb5' }}>All Skills</Tab>
-                    <Tab p={["5px", "10px", "8px 15px"]} fontSize={["10px", "15px", "20px"]} bg="#C1B6DB" _selected={{ color: '#13022c', bg: '#92bcb5' }}>Frontend</Tab>
-                    <Tab p={["5px", "10px", "8px 15px"]} fontSize={["10px", "15px", "20px"]} bg="#C1B6DB" _selected={{ color: '#13022c', bg: '#92bcb5' }}>Backend</Tab>
-                    <Tab p={["5px", "10px", "8px 15px"]} fontSize={["10px", "15px", "20px"]} bg="#C1B6DB" _selected={{ color: '#13022c', bg: '#92bcb5' }}>Tools</Tab>
+                    <Tab p={["5px", "10px", "8px 10px"]} fontSize={["10px", "15px", "20px"]} bg="#C1B6DB" _selected={{ color: '#13022c', bg: '#48B3E9 ' }}>All Skills</Tab>
+                    <Tab p={["5px", "10px", "8px 15px"]} fontSize={["10px", "15px", "20px"]} bg="#C1B6DB" _selected={{ color: '#13022c', bg: '#48B3E9 ' }}>Frontend</Tab>
+                    <Tab p={["5px", "10px", "8px 15px"]} fontSize={["10px", "15px", "20px"]} bg="#C1B6DB" _selected={{ color: '#13022c', bg: '#48B3E9 ' }}>Backend</Tab>
+                    <Tab p={["5px", "10px", "8px 15px"]} fontSize={["10px", "15px", "20px"]} bg="#C1B6DB" _selected={{ color: '#13022c', bg: '#48B3E9 ' }}>Tools</Tab>
                 </TabList>
                 <TabPanels>
                     <TabPanel>

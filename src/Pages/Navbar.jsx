@@ -24,7 +24,7 @@ function Navbar(){
         window.removeEventListener("scroll");
         }
     }, [])
-    return <Box zIndex={1} color={isscroll? darkTheme==="dark"? "white" :"black": darkTheme==="dark"? "white" : "white" } bg={isscroll? darkTheme==="dark"? "#92bcb5" : "#92bcb5" : darkTheme==="dark"? "#1D2143" : "#1D2143"} w="100%" p="11px 9px" boxShadow="md"  position="fixed">
+    return <Box zIndex={1} color={isscroll? darkTheme==="dark"? "white" :"white": darkTheme==="dark"? "white" : "white" } bg={isscroll? darkTheme==="dark"? "#48B3E9 " : "#48B3E9 " : darkTheme==="dark"? "#1D2143" : "#1D2143"} w="100%" p="11px 9px" boxShadow="md"  position="fixed">
         <Box w="91%" m="auto" display={["inline", "flex", "flex"]} justifyContent="space-between" textAlign={["center", "", ""]}>
             <Box >
                 <Text fontFamily="cursive" fontWeight="500" paddingLeft={25} fontSize={['lg', 'sm', '3xl']}>Rahul Das</Text>
