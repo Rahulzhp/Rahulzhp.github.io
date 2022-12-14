@@ -10,7 +10,7 @@ function Calender() {
             <Row style={{ justifyContent: "center", padding: "20px auto", paddingTop: "60px"}}>
             <Text margin="auto" textAlign="center"  fontWeight="400" fontSize={["3xl", "4xl", "5xl"]}>My Github Calender</Text>
             <GitHubCalendar 
-            margin="auto"
+                margin="auto"
                 username="Rahulzhp"
                 blockSize={15}
                 blockMargin={5}

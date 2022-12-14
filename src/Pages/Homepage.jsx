@@ -59,8 +59,8 @@ function Homepage(){
                         </Box>
                     {/* <Image position="absolute" top={["-10", "-10", "-20"]} left={["", "", "-8"]} src="https://www.wallpaperuse.com/wallp/56-561836_m.png" alt="img" /> */}
                 </Box>
-                <Box _hover={{transform:"scale(1.03)", transitionProperty: "transform", transitionDuration: "0.5s"}} bg={darkTheme==="dark"? "#C4A9EC" : "white"} p="3px" w={["42%", "30%", "29%"]} m="20px auto 40px auto" rounded={["50%", "50%", "50%"]}>
-                    <Image boxShadow="xl" w="100%" rounded={["50%", "50%", "50%"]} src="https://avatars.githubusercontent.com/u/107567053?v=4" alt="img" />
+                <Box _hover={{transform:"scale(1.03)", transitionProperty: "transform", transitionDuration: "0.5s"}} bg={darkTheme==="dark"? "#C4A9EC" : "white"} p="3px" w={["43%", "30%", "31%"]} m="20px auto 40px auto" rounded={["50%", "50%", "50%"]}>
+                    <Image boxShadow="xl" w="100%" rounded={["50%", "50%", "50%"]} src="https://media.licdn.com/dms/image/D5603AQHsNbRXENmraQ/profile-displayphoto-shrink_400_400/0/1671029066333?e=1676505600&v=beta&t=jcXRQy071JwZ89oD9mnojzDG-m7IU0_HSZ3JypfK3l8" alt="img" />
                 </Box>
                 {/* <Image w="400px" h="200px" src="https://res.cloudinary.com/practicaldev/image/fetch/s--2bZIjPGC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/d4tvukbt5mra37cvwklk.gif" alt="img" /> */}
             </Box>

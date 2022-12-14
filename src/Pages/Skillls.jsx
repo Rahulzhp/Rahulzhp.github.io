@@ -66,7 +66,7 @@ function Skills(){
         },
         {
             text:"Vercel",
-            iconas:"https://www.svgrepo.com/show/327408/logo-vercel.svg"
+            iconas:"https://avatars.githubusercontent.com/u/14985020?s=280&v=4"
         },
         {
             text:"Replit",
@@ -142,7 +142,7 @@ function Skills(){
         },
         {
             text:"Vercel",
-            iconas:"https://www.svgrepo.com/show/327408/logo-vercel.svg"
+            iconas:"https://avatars.githubusercontent.com/u/14985020?s=280&v=4"
         },
         {
             text:"Replit",
