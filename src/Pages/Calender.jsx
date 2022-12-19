@@ -9,6 +9,7 @@ function Calender() {
         <Box w="80%" transform="scale(1.05)" m="auto" textAlign="center" p="60px auto">
             <Row style={{ justifyContent: "center", padding: "20px auto", paddingTop: "60px"}}>
             <Text margin="auto" textAlign="center"  fontWeight="400" fontSize={["xl", "xl", "4xl"]}>My Github Calender</Text>
+            <Box m="auto" fontSize={["sm", "xl", "4xl"]}>
             <GitHubCalendar 
                 margin="auto"
                 username="Rahulzhp"
@@ -17,6 +18,7 @@ function Calender() {
                 color="#5e0adb"
                 fontSize={15}
             />
+            </Box>
             </Row>
             <Box display={["inline","inline","flex"]}  mt={["50px","55px","45px"]} m="auto" >
             <Box m="auto" p="12px 3px" w={["90%","80%","48%"]}  >

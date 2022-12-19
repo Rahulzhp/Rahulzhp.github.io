@@ -1,0 +1,21 @@
+.res{
+    display: none;
+   }
+ #rt{
+   display: flex;
+ } 
+ .nt{
+   display: none;
+ } 
+@media (max-width: 740px){
+
+   .res{
+    display: block;
+   }
+   #rt{
+      display: none;
+   }
+   .nt{
+      display: block;
+   }
+}
