@@ -34,20 +34,7 @@ function Project() {
             livelink: "https://instinctive-start-5063.vercel.app/",
             gitlink: "https://github.com/Rahulzhp/instinctive-start-5063"
         },
-        // {
-        //     name: "Recipe App",
-        //     img: "",
-        //     desc: "",
-        //     livelink: "https://courageous-valkyrie-f0e4b0.netlify.app/",
-        //     gitlink: ""
-        // },
-        // {
-        //     name: "Netflix Clone",
-        //     img: "",
-        //     desc: "",
-        //     livelink: "",
-        //     gitlink: "https://github.com/sanghamitra0591/exploring/tree/main/netflixcopy"
-        // }
+
     ]
 
 

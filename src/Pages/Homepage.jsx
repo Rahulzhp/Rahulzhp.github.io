@@ -31,7 +31,7 @@ function Homepage(){
                 onClick={toggleColorMode}
                 icon={colorMode === "dark" ? <FaSun/> : <FaMoon/>}
         />
-        <Box id="Home" w="100.1156%" ml="-1.069px" pt={["100px", "50px", "50px"]} color="#e1cefd" bg={darkTheme==="dark"? "#13022C" : "#13022C"}>
+        <Box id="Home" w="100.1156%" ml="-1.069px" pt={["100px", "50px", "50px"]} color="#e1cefd" bg={darkTheme==="dark"? "#13022C" : "#13022C"}  >
                 <Box h="574px" w="85%" color={darkTheme==="dark"? "#d3cedb" : "#13022C"} m="auto" display={["inline", "inline", "flex"]} alignItems="center" justifyContent="space-around">
                     <Box mt={["50px", "50px", "0px"]} w={["100%", "100%", "60%"]}>
                         <Box textAlign="left" pl={["20px", "60px", "20px"]}>
@@ -57,12 +57,11 @@ function Homepage(){
                                 <a href="https://www.linkedin.com/in/rahul-das-787a66246/" rel="noreferrer" target="_blank"><Button _hover={{transform:"scale(1.13)",color:"black", bg:"#92bcb5"}} pr="0px" pl="5px" fontSize={["2xl", "3xl", "4xl"]} bg={darkTheme==="dark"? "#48B3E9 " : "#48B3E9 "} color={darkTheme==="dark"? "white" : "white"}  variant='solid' leftIcon={<AiOutlineLinkedin />}></Button></a>
                             </Box>
                         </Box>
-                    {/* <Image position="absolute" top={["-10", "-10", "-20"]} left={["", "", "-8"]} src="https://www.wallpaperuse.com/wallp/56-561836_m.png" alt="img" /> */}
+                     
                 </Box>
-                <Box _hover={{transform:"scale(1.03)", transitionProperty: "transform", transitionDuration: "0.5s"}} bg={darkTheme==="dark"? "#C4A9EC" : "white"} p="3px" w={["43%", "30%", "31%"]} m="20px auto 40px auto" rounded={["50%", "50%", "50%"]}>
-                    <Image boxShadow="xl" w="100%" rounded={["50%", "50%", "50%"]} src="https://media.licdn.com/dms/image/D5603AQHsNbRXENmraQ/profile-displayphoto-shrink_400_400/0/1671029066333?e=1676505600&v=beta&t=jcXRQy071JwZ89oD9mnojzDG-m7IU0_HSZ3JypfK3l8" alt="img" />
+                <Box _hover={{transform:"scale(1.03)", transitionProperty: "transform", transitionDuration: "0.5s"}} bg={darkTheme==="dark"? "#C4A9EC" : "#48B3E9"} p="3px" w={["43%", "30%", "31%"]} m="20px auto 40px auto" >
+                    <Image boxShadow="xl" w="100%"  src="https://media.licdn.com/dms/image/D5603AQHsNbRXENmraQ/profile-displayphoto-shrink_400_400/0/1671029066333?e=1676505600&v=beta&t=jcXRQy071JwZ89oD9mnojzDG-m7IU0_HSZ3JypfK3l8" alt="img" />
                 </Box>
-                {/* <Image w="400px" h="200px" src="https://res.cloudinary.com/practicaldev/image/fetch/s--2bZIjPGC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/d4tvukbt5mra37cvwklk.gif" alt="img" /> */}
             </Box>
         </Box>
         <About />

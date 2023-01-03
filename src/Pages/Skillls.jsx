@@ -172,7 +172,7 @@ return <Box id="Skills" w="full" bg="#13022C" color="#ffffff" p="30px 0px" mt="-
                                             <Box className="skillinner" p={["5px", "7px", "8px"]}>
                                                 {/*<Icon as={el.iconas} w={["30px", "35px", "50px"]} h="50px" color='white' />*/}
                                                 <Image width={["33%", "37%", "39%"]} m="auto" src={el.iconas}></Image>
-                                                <Text fontSize={["10px", "15px", "20px"]} fontFamily="cursive" mt="10px">{el.text}</Text>
+                                                <Text fontSize={["10px", "15px", "20px"]} fontFamily="inherit" mt="10px">{el.text}</Text>
                                             </Box>
                                         </Box>
                             })}
@@ -184,7 +184,7 @@ return <Box id="Skills" w="full" bg="#13022C" color="#ffffff" p="30px 0px" mt="-
                                 return <Box className="skillouter" p={["10px", "15px", "19px"]} h={["110px", "150px", "170px"]}>
                                             <Box className="skillinner" p={["5px", "7px", "15px"]}>
                                             <Image width={["33%", "37%", "39%"]} m="auto" src={el.iconas}></Image>
-                                                <Text fontSize={["10px", "15px", "20px"]} fontFamily="cursive" mt="10px">{el.text}</Text>
+                                                <Text fontSize={["10px", "15px", "20px"]} fontFamily="inherit" mt="10px">{el.text}</Text>
                                             </Box>
                                         </Box>
                             })}
@@ -196,7 +196,7 @@ return <Box id="Skills" w="full" bg="#13022C" color="#ffffff" p="30px 0px" mt="-
                                 return <Box className="skillouter" p={["10px", "15px", "19px"]} h={["110px", "150px", "170px"]}>
                                             <Box className="skillinner" p={["5px", "7px", "15px"]}>
                                             <Image width={["33%", "37%", "39%"]} m="auto" src={el.iconas}></Image>
-                                                <Text fontSize={["10px", "15px", "20px"]} fontFamily="cursive" mt="10px">{el.text}</Text>
+                                                <Text fontSize={["10px", "15px", "20px"]} fontFamily="inherit" mt="10px">{el.text}</Text>
                                             </Box>
                                         </Box>
                             })}
@@ -208,7 +208,7 @@ return <Box id="Skills" w="full" bg="#13022C" color="#ffffff" p="30px 0px" mt="-
                                 return <Box className="skillouter" p={["10px", "15px", "19px"]} h={["110px", "150px", "170px"]}>
                                             <Box className="skillinner" p={["5px", "7px", "15px"]}>
                                             <Image width={["33%", "37%", "39%"]} m="auto" src={el.iconas}></Image>
-                                                <Text fontSize={["10px", "15px", "20px"]} fontFamily="cursive" mt="10px">{el.text}</Text>
+                                                <Text fontSize={["10px", "15px", "20px"]} fontFamily="inherit" mt="10px">{el.text}</Text>
                                             </Box>
                                         </Box>
                             })}
