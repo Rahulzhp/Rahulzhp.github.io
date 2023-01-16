@@ -31,7 +31,7 @@ function Homepage(){
                 onClick={toggleColorMode}
                 icon={colorMode === "dark" ? <FaSun/> : <FaMoon/>}
         />
-        <Box id="Home" w="100.1156%" ml="-1.069px" pt={["100px", "50px", "50px"]} color="#e1cefd" bg={darkTheme==="dark"? "#13022C" : "#13022C"}  >
+        <Box id="Home" w="100.1156%" ml="-1.069px" pt={["50px", "50px", "50px"]} color="#e1cefd" bg={darkTheme==="dark"? "#13022C" : "#13022C"}  >
                 <Box h="574px" w="85%" color={darkTheme==="dark"? "#d3cedb" : "#13022C"} m="auto" display={["inline", "inline", "flex"]} alignItems="center" justifyContent="space-around">
                     <Box mt={["50px", "50px", "0px"]} w={["100%", "100%", "60%"]}>
                         <Box textAlign="left" pl={["20px", "60px", "20px"]}>
@@ -59,8 +59,8 @@ function Homepage(){
                         </Box>
                      
                 </Box>
-                <Box _hover={{transform:"scale(1.03)", transitionProperty: "transform", transitionDuration: "0.5s"}} bg={darkTheme==="dark"? "#C4A9EC" : "#48B3E9"} p="3px" w={["43%", "30%", "31%"]} m="20px auto 40px auto" >
-                    <Image boxShadow="xl" w="100%"  src="https://media.licdn.com/dms/image/D5603AQHsNbRXENmraQ/profile-displayphoto-shrink_400_400/0/1671029066333?e=1676505600&v=beta&t=jcXRQy071JwZ89oD9mnojzDG-m7IU0_HSZ3JypfK3l8" alt="img" />
+                <Box _hover={{transform:"scale(1.03)", transitionProperty: "transform", transitionDuration: "0.5s"}} bg={darkTheme==="dark"? "#C4A9EC" : "#48B3E9"} p="3px" w={["43%", "30%", "31%"]} m="20px auto 40px auto"  borderRadius={["7%", "5%", "5%"]} >
+                    <Image boxShadow="xl" w="100%" borderRadius={["4%", "3%", "3%"]}  src="https://media.licdn.com/dms/image/D5603AQHsNbRXENmraQ/profile-displayphoto-shrink_400_400/0/1671029066333?e=1676505600&v=beta&t=jcXRQy071JwZ89oD9mnojzDG-m7IU0_HSZ3JypfK3l8" alt="img" />
                 </Box>
             </Box>
         </Box>
