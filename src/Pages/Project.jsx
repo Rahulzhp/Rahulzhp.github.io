@@ -11,7 +11,7 @@ function Project() {
             img: "https://i.ibb.co/wyz1tzx/Screenshot-185.png",
             type: "Individual",
             desc: "A Online retail store where users can buy there day to day and special occasion need of the Makeup, Skin care, Hair care, Personal care, Mom and Baby care, Fragrance and Ayurveda products.",
-            techstack: "React, CHakra UI, JavaScript, Css",
+            techstack: "React, Chakra UI, JavaScript, CSS",
             livelink: "https://incandescent-gaufre-5716af.netlify.app/",
             gitlink: "https://github.com/Rahulzhp/kaput-boundary-7997"
         },
@@ -20,7 +20,7 @@ function Project() {
             img: "https://i.ibb.co/GckpFrQ/Screenshot-187.png",
             type: "Collaborative",
             desc: "Rodan + Fields is a skincare website which allows users to buy Best Skincare products  and also helps to cure skin diseases from expert. ",
-            techstack: "JavaScript, html,css",
+            techstack: "JavaScript, HTML, CSS",
             livelink: "https://rodan-fileds-12-masai.netlify.app/",
             gitlink: "https://github.com/imrangadwal10/zonked-instrument-5361"
         },
@@ -30,9 +30,18 @@ function Project() {
             img: "https://i.ibb.co/8B0xKSr/Screenshot-195.png",
             type: "Individual",
             desc: "Lose It! is a calorie counter & food diary diet app that helps you stick to your diet and achieve weight loss that fits! It was created with the goal of helping members reach a healthy weight by providing them with the tools they need for success.",
-            techstack: "React, CHakra UI, JavaScript, Css",
+            techstack: "React, Chakra UI, JavaScript, CSS",
             livelink: "https://instinctive-start-5063.vercel.app/",
             gitlink: "https://github.com/Rahulzhp/instinctive-start-5063"
+        },
+        {
+            name: "BloomingCart Clone",
+            img: "https://user-images.githubusercontent.com/107500115/213977029-5eefd237-0127-4095-80ec-4664fa3800da.png",
+            type: "Collaborative",
+            desc: "Grab Exciting Deals On Gifting Products Only On Blooming Cart India Store. Shop Unrivalled Range Of Flowers and Gifting Products. It is an ecommerce website where we can interact and place our orders.",
+            techstack: "React, Chakra UI, JavaScript, CSS, Node JS, MONGODB - Atlas",
+            livelink: "https://blooming-cart.netlify.app/",
+            gitlink: "https://github.com/Rahulzhp/Blooming-Cart"
         },
 
     ]
@@ -50,12 +59,12 @@ function Project() {
                             <Box w={["100%", "97%", "40%"]} m="auto">
                                 <Text fontSize={["2xl", "3xl", "4xl"]}>{project.name}</Text>
                                 <Text w={["100%", "90%", "70%"]} m="auto" fontFamily="inherit" textAlign="justify" fontSize={["sm", "md", "md"]}>{project.desc}
-                                    <Text fontSize={["sm", "md", "md"]} fontWeight="bold" >Project type :-{project.type} </Text>
+                                    <Text fontSize={["sm", "md", "md"]} fontWeight="bold" >Project type :- {project.type} </Text>
 
                                 </Text>
                                 <Box textAlign="left" m="auto" p={["2px 0px", "2px 7px", "2px 1px"]} w={["99%", "93%", "70%"]}>
 
-                                    <Text fontSize={["13px", "15px", "16px"]} fontWeight="bold">Techstacks :-{project.techstack}</Text>
+                                    <Text fontSize={["13px", "15px", "16px"]} fontWeight="bold">Techstacks :- {project.techstack}</Text>
                                 </Box>
                                 <Box display="flex" w={["100%", "80%", "100%"]} m="auto" justifyContent="space-around">
                                     {/* <Button  _hover={{bg:"#4E406F", color:"#ffffff"}} mt="10px" p={["5px 5px", "10px 10px", "10px 10px"]} fontSize={["md", "lg", ";g"]} bg="#C1B6DB" color="#13022c" border="none" variant='solid' leftIcon={<BiLinkExternal />}><a href={project.livelink} rel="noreferrer" target="_blank">Live</a></Button>
