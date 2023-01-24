@@ -28,6 +28,13 @@ function Navbar(){
         window.removeEventListener("scroll");
         }
     }, [])
+    const handleClick=()=>{
+        window.open(
+            "https://drive.google.com/file/d/1fHs0WXpCaHcAUypp7c8C1qIGgH1xVYuH/view?usp=sharing",
+            "_blank",
+            "noopener,noreferrer"
+        )
+    }
     return <Box zIndex={1} color={isscroll? darkTheme==="dark"? "white" :"white": darkTheme==="dark"? "white" : "white" } bg={isscroll? darkTheme==="dark"? "#48B3E9 " : "#48B3E9 " : darkTheme==="dark"? "#1D2143" : "#1D2143"} w="100%" p="11px 9px" boxShadow="md"  position="fixed">
         <Box w="91%" m="auto" display={["flex", "flex", "flex"]} justifyContent="space-between" textAlign={["center", "", ""]}>
             <Box >
@@ -54,7 +61,7 @@ function Navbar(){
                 <Link display="flex">
                     <AnchorLink href='#Contact'><Text color={darkTheme==="dark"?  "gray":"white" } fontFamily="inherit" fontWeight="500" fontSize={['sm', 'sm', 'lg']}>Contact</Text></AnchorLink>
                 </Link>
-                <Text color={darkTheme==="dark"?  "gray":"white" } fontFamily="inherit" fontWeight="500" fontSize={['sm', 'sm', 'lg']}><a href="https://drive.google.com/uc?export=download&id=1fHs0WXpCaHcAUypp7c8C1qIGgH1xVYuH">Resume</a></Text>
+                <Text onClick={handleClick} color={darkTheme==="dark"?  "gray":"white" } fontFamily="inherit" fontWeight="500" fontSize={['sm', 'sm', 'lg']}><a href="https://drive.google.com/uc?export=download&id=1fHs0WXpCaHcAUypp7c8C1qIGgH1xVYuH">Resume</a></Text>
             </Box>
             
             

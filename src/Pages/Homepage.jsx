@@ -19,6 +19,15 @@ import {ThemeContext} from "../ThemeContext/ThemeContextProvider";
 function Homepage(){
     const {darkTheme, setdarkTheme}= useContext(ThemeContext);
     const { toggleColorMode, colorMode } = useColorMode();
+
+
+    const handleClick=()=>{
+        window.open(
+            "https://drive.google.com/file/d/1fHs0WXpCaHcAUypp7c8C1qIGgH1xVYuH/view?usp=sharing",
+            "_blank",
+            "noopener,noreferrer"
+        )
+    }
     setdarkTheme(colorMode);
     return <Box bg="#131937" position="relative">
         <IconButton
@@ -51,7 +60,7 @@ function Homepage(){
                                 />
                                 <Text m="auto" fontFamily="sans-serif" color="white" textAlign="justify" marginRight="2px" fontSize={["13px", "15px", "17px"]}>Passionate Full Stack Web Developer with a specialization in MERN stack. Skilled, collaborative and attentive developer with a drive to develop the most relevant products. Always looking forward to learn something new to strengthen skills learned.</Text> 
                             </Box>
-                            <Button _hover={{transform:"scale(1.1)", bg:"#92bcb5", color:darkTheme==="dark"? "black" : "black"}} mt="10px" p={["15px 15px", "20px 20px", "25px 25px"]} fontSize={["md", "lg", "xl"]} bg={darkTheme==="dark"? "#48B3E9 " :"#48B3E9 "} color={darkTheme==="dark"? "white" : "white"}  variant='solid' leftIcon={<DownloadIcon />}>
+                            <Button _hover={{transform:"scale(1.1)", bg:"#92bcb5", color:darkTheme==="dark"? "black" : "black"}} mt="10px" p={["15px 15px", "20px 20px", "25px 25px"]} onClick={handleClick} fontSize={["md", "lg", "xl"]} bg={darkTheme==="dark"? "#48B3E9 " :"#48B3E9 "} color={darkTheme==="dark"? "white" : "white"}  variant='solid' leftIcon={<DownloadIcon />}>
                             <a href="https://drive.google.com/uc?export=download&id=1fHs0WXpCaHcAUypp7c8C1qIGgH1xVYuH"  >Resume</a></Button>
                             <Box mt="15px" gap="15px" display="flex" color="#13022c">
                                 <a href="https://github.com/Rahulzhp" rel="noreferrer" target="_blank"><Button _hover={{transform:"scale(1.13)",bg:"#92bcb5",color:"black"}} pr="0px"pl="5px" fontSize={["2xl", "3xl", "4xl"]} bg={darkTheme==="dark"? "#48B3E9 " : "#48B3E9 "} color={darkTheme==="dark"? "white" : "white"}  variant='solid' leftIcon={<AiOutlineGithub />}></Button></a>
