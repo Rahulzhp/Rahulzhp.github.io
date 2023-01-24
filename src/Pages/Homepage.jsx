@@ -35,9 +35,9 @@ function Homepage(){
                 <Box h="574px" w="85%" color={darkTheme==="dark"? "#d3cedb" : "#13022C"} m="auto" display={["inline", "inline", "flex"]} alignItems="center" justifyContent="space-around">
                     <Box mt={["50px", "50px", "0px"]} w={["100%", "100%", "60%"]}>
                         <Box textAlign="left" pl={["20px", "60px", "20px"]}>
-                            <Text fontWeight="500" color="white" fontFamily="sans-serif" display="flex" alignItems="center" fontSize={["2xl", "3xl", "4xl"]}>Hi <Image boxSize={["30px", "40px", "50px"]}  src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/waving-hand_1f44b.gif" alt="img" /></Text>
-                            <Text fontFamily="inherit" color="white" fontWeight={600} fontSize={["5xl", "6xl", "7xl"]}>Rahul Das</Text>
-                            <Box fontFamily="sans-serif" color="white" fontSize={["2xl", "3xl", "4xl"]}>
+                            <Text fontWeight="500" color="white" fontFamily="sans-serif" display="flex" alignItems="center" fontSize={["2xl", "3xl", "4xl"]}>Hi, <Image boxSize={["30px", "40px", "50px"]}  src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/waving-hand_1f44b.gif" alt="img" />  I am Rahul Das</Text>
+                            {/* <Text fontFamily="inherit" color="white" fontWeight={600} fontSize={["5xl", "6xl", "7xl"]}>Rahul Das</Text> */}
+                            <Box fontFamily="sans-serif" color="teal" fontWeight={500}  fontSize={["29px", "37px", "45px"]}>
                                 <Typewriter
                                     options={{
                                         strings: [
@@ -49,6 +49,7 @@ function Homepage(){
                                         deleteSpeed: 115,
                                     }}
                                 />
+                                <Text  fontFamily="sans-serif" color="white" textAlign="justify" marginRight="2px" fontSize={["13px", "15px", "17px"]}>Passionate Full Stack Web Developer with a specialization in MERN stack. Skilled, collaborative and attentive developer with a drive to develop the most relevant products. Always looking forward to learn something new to strengthen skills learned.</Text> 
                             </Box>
                             <Button _hover={{transform:"scale(1.1)", bg:"#92bcb5", color:darkTheme==="dark"? "black" : "black"}} mt="10px" p={["15px 15px", "20px 20px", "25px 25px"]} fontSize={["md", "lg", "xl"]} bg={darkTheme==="dark"? "#48B3E9 " :"#48B3E9 "} color={darkTheme==="dark"? "white" : "white"}  variant='solid' leftIcon={<DownloadIcon />}>
                             <a href="https://drive.google.com/uc?export=download&id=1fHs0WXpCaHcAUypp7c8C1qIGgH1xVYuH"  >Resume</a></Button>
