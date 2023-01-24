@@ -42,8 +42,8 @@ function Homepage(){
         />
         <Box id="Home" w="100.1156%" ml="-1.069px" pt={["50px", "50px", "50px"]} color="#e1cefd" bg={darkTheme==="dark"? "#13022C" : "#13022C"}  >
                 <Box h="574px" w="85%" color={darkTheme==="dark"? "#d3cedb" : "#13022C"}  m="auto" display={["inline", "inline", "flex"]} alignItems="center" justifyContent="space-around">
-                    <Box mt={["50px", "50px", "0px"]}  w={["100%", "100%", "60%"]}>
-                        <Box textAlign="left" pl={["20px", "60px", "20px"]}>
+                    <Box  mt={["50px", "50px", "0px"]}   w={["100%", "100%", "60%"]}>
+                        <Box textAlign="left" m="auto" pl={["20px", "60px", "20px"]}>
                             <Text fontWeight="500" color="white" fontFamily="sans-serif" display="flex" alignItems="center" fontSize={["2xl", "3xl", "4xl"]}>Hi, <Image boxSize={["30px", "40px", "50px"]}  src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/waving-hand_1f44b.gif" alt="img" />  I am Rahul Das</Text>
                             {/* <Text fontFamily="inherit" color="white" fontWeight={600} fontSize={["5xl", "6xl", "7xl"]}>Rahul Das</Text> */}
                             <Box fontFamily="sans-serif" color="teal" fontWeight={500}  fontSize={["29px", "37px", "45px"]}>
