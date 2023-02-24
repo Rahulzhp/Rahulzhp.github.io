@@ -44,7 +44,7 @@ function Homepage(){
                 <Box h="574px" w="85%" color={darkTheme==="dark"? "#d3cedb" : "#13022C"}  m="auto" display={["inline", "inline", "flex"]} alignItems="center" justifyContent="space-around">
                     <Box  mt={["50px", "50px", "0px"]}   w={["100%", "100%", "60%"]}>
                         <Box textAlign="left" m="auto" pl={["20px", "60px", "20px"]}>
-                            <Text fontWeight="500" color="white" fontFamily="sans-serif" display="flex" alignItems="center" fontSize={["2xl", "3xl", "4xl"]}>Hi, <Image boxSize={["30px", "40px", "50px"]}  src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/waving-hand_1f44b.gif" alt="img" />  I am Rahul Das</Text>
+                            <Text fontWeight="500" color="white" fontFamily="sans-serif" display="flex" alignItems="center" fontSize={["2xl", "3xl", "4xl"]}>Hi, 👋 I am Rahul Das</Text>
                             {/* <Text fontFamily="inherit" color="white" fontWeight={600} fontSize={["5xl", "6xl", "7xl"]}>Rahul Das</Text> */}
                             <Box fontFamily="sans-serif" color="teal" fontWeight={500}  fontSize={["29px", "37px", "45px"]}>
                                 <Typewriter
@@ -74,7 +74,7 @@ function Homepage(){
                      
                 </Box>
                 <Box _hover={{transform:"scale(1.03)", transitionProperty: "transform", transitionDuration: "0.5s"}} bg={darkTheme==="dark"? "#C4A9EC" : "#48B3E9"} p="3px" w={["43%", "30%", "31%"]} m="20px auto 40px auto"  borderRadius={["7%", "5%", "5%"]} >
-                    <Image boxShadow="xl" w="100%" borderRadius={["4%", "3%", "3%"]}  src="https://media.licdn.com/dms/image/D5603AQHsNbRXENmraQ/profile-displayphoto-shrink_400_400/0/1671029066333?e=1676505600&v=beta&t=jcXRQy071JwZ89oD9mnojzDG-m7IU0_HSZ3JypfK3l8" alt="img" />
+                    <Image boxShadow="xl" w="100%" borderRadius={["4%", "3%", "3%"]}  src="https://user-images.githubusercontent.com/107567053/221118935-5bcb4606-ce9a-4811-867b-1af058b099c8.jpg" alt="img" />
                 </Box>
             </Box>
         </Box>
