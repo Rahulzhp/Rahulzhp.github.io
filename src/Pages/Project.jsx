@@ -47,7 +47,7 @@ function Project() {
     ]
 
 
-    return <Box id="Project" w="full" bg="#13022C" color="#ffffff" p="30px 0px" textAlign="center" pt="100px">
+    return <Box data-testid="projects" id="Project" w="full" bg="#13022C" color="#ffffff" p="30px 0px" textAlign="center" pt="100px">
         <Box w="85%" m="auto">
             <Text mb="25px" textAlign="center" fontWeight="400" fontSize={["3xl", "4xl", "5xl"]}>Projects</Text>
             <Box display="grid" gap="50px" gridTemplateColumns="repeat(1, 1fr)">
