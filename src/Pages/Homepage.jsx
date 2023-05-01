@@ -29,7 +29,7 @@ function Homepage() {
         )
     }
     setdarkTheme(colorMode);
-    return <Box data-testid="home" bg="#131937" position="relative">
+    return <Box id="home" bg="#131937" position="relative">
         <IconButton
             aria-label="toggle theme"
             rounded="full"
