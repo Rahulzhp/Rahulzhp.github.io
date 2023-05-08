@@ -154,7 +154,7 @@ function Skills() {
         }
     ]
 
-    return <Box data-testid="skills" id="Skills" w="full" bg="#13022C" color="#ffffff" p="30px 0px" mt="-2px" pt="57px">
+    return <Box id="skills" w="full" bg="#13022C" color="#ffffff" p="30px 0px" mt="-2px" pt="57px">
         <Box w="85%" m="auto">
             <Text textAlign="center" mb="15px" fontWeight="400" fontSize={["3xl", "4xl", "5xl"]}>Technical Skills</Text>
             <Tabs variant='unstyled'>

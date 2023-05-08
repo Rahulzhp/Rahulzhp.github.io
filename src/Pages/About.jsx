@@ -2,7 +2,7 @@ import { Box, Image, Text } from "@chakra-ui/react";
 
 
 function About() {
-    return <Box data-testid="about" id="About" bg="linear-gradient(180deg, rgba(28,14,50,1) 45%, rgba(28,14,50,1) 99%)" color="#ffffff" p="51px 0px" mt="-2px" >
+    return <Box id="about" className="about section" bg="linear-gradient(180deg, rgba(28,14,50,1) 45%, rgba(28,14,50,1) 99%)" color="#ffffff" p="51px 0px" mt="-2px" >
         <Box w="89%" m="auto" display={["inline", "inline", "flex"]} justifyContent="space-between" alignItems="center">
             <Image w={["90%", "80%", "50%"]} m="auto" mt={["0px", "30px", "auto"]} src="https://github.com/Codex-Swapnil1/PortFolio/raw/main/Full-Stack-Development-Featured-Image-LevelFive-Solutions.gif" alt="img" />
             <Box w={["90%", "80%", "46%"]} m="auto">

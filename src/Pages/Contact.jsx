@@ -4,7 +4,7 @@ import { IoIosCall } from "react-icons/io";
 import "./Page.css";
 
 function Contacts() {
-    return <Box data-testid="contact" id="Contact" bg="linear-gradient(180deg, rgba(44,23,75,1) 45%, rgba(28,14,50,1) 99%)" color="white" p="60px 0px" pt="75px">
+    return <Box id="contact" bg="linear-gradient(180deg, rgba(44,23,75,1) 45%, rgba(28,14,50,1) 99%)" color="white" p="60px 0px" pt="75px">
         <Box w={["85%", "85%", "85%"]} m="auto" textAlign="center" p="60px auto" display={["inline", "inline", "flex"]} justifyContent="space-between">
             <Box>
                 <Box p={["15px", "38px", "15px"]}>
