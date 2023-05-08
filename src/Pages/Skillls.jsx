@@ -169,10 +169,10 @@ function Skills() {
                         <Box display="grid" gap={["15px", "15px", "10px"]} gridTemplateColumns={["repeat(2, 1fr)", "repeat(3, 1fr)", "repeat(4, 1fr)"]} textAlign="center">
                             {allskills && allskills.map((el) => {
                                 return <Box className="skillouter" p={["10px", "15px", "19px"]} h={["110px", "150px", "170px"]}>
-                                    <Box className="skillinner" p={["5px", "7px", "8px"]}>
+                                    <Box className="skills-card" p={["5px", "7px", "8px"]}>
                                         {/*<Icon as={el.iconas} w={["30px", "35px", "50px"]} h="50px" color='white' />*/}
-                                        <Image width={["33%", "37%", "39%"]} m="auto" src={el.iconas}></Image>
-                                        <Text fontSize={["10px", "15px", "20px"]} fontFamily="inherit" mt="10px">{el.text}</Text>
+                                        <Image className="skills-card-img" width={["33%", "37%", "39%"]} m="auto" src={el.iconas}></Image>
+                                        <Text className="skills-card-name" fontSize={["10px", "15px", "20px"]} fontFamily="inherit" mt="10px">{el.text}</Text>
                                     </Box>
                                 </Box>
                             })}

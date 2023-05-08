@@ -37,7 +37,7 @@ function Navbar() {
     }
     return <Box id="nav-menu" zIndex={1} color={isscroll ? darkTheme === "dark" ? "white" : "white" : darkTheme === "dark" ? "white" : "white"} bg={isscroll ? darkTheme === "dark" ? "#48B3E9 " : "#48B3E9 " : darkTheme === "dark" ? "#1D2143" : "#1D2143"} w="100%" p="11px 9px" boxShadow="md" position="fixed">
         <Box w="91%" m="auto" display={["flex", "flex", "flex"]} justifyContent="space-between" textAlign={["center", "", ""]}>
-            <Box >
+            <Box id="user-detail-name">
                 <Text fontFamily="inherit" fontWeight="500" paddingLeft={["8px", "13px", "25px"]} fontSize={['lg', 'sm', '3xl']}>Rahul Das</Text>
             </Box>
             <Box onClick={() => setHam(!ham)} className="res">

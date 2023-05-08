@@ -44,7 +44,7 @@ function Homepage() {
             <Box h="574px" w="85%" color={darkTheme === "dark" ? "#d3cedb" : "#13022C"} m="auto" display={["inline", "inline", "flex"]} alignItems="center" justifyContent="space-around">
                 <Box mt={["50px", "50px", "0px"]} w={["100%", "100%", "60%"]}>
                     <Box textAlign="left" m="auto" pl={["20px", "60px", "20px"]}>
-                        <Text fontWeight="500" color="white" fontFamily="sans-serif" display="flex" alignItems="center" fontSize={["2xl", "3xl", "4xl"]}>Hi, 👋 I am Rahul Das</Text>
+                        <Text id="user-detail-name" fontWeight="500" color="white" fontFamily="sans-serif" display="flex" alignItems="center" fontSize={["2xl", "3xl", "4xl"]}>Hi, 👋 I am Rahul Das</Text>
                         {/* <Text fontFamily="inherit" color="white" fontWeight={600} fontSize={["5xl", "6xl", "7xl"]}>Rahul Das</Text> */}
                         <Box fontFamily="sans-serif" color="teal" fontWeight={500} fontSize={["29px", "37px", "45px"]}>
                             <Typewriter
@@ -58,11 +58,8 @@ function Homepage() {
                                     deleteSpeed: 115,
                                 }}
                             />
-
-                            <Text m="auto" fontFamily="sans-serif" color="white" textAlign="justify" marginRight="20px" fontSize={["13px", "15px", "17px"]}>Passionate Full Stack Web Developer with a specialization in
+                            <Text id="user-detail-intro" m="auto" fontFamily="sans-serif" color="white" textAlign="justify" marginRight="20px" fontSize={["13px", "15px", "17px"]}>Passionate Full Stack Web Developer with a specialization in
                                 MERN stack. Skilled, collaborative and attentive developer with a drive to develop the most relevant products. Always looking forward to learn something new to strengthen skills learned.</Text>
-
-
                         </Box>
                         <Button _hover={{ transform: "scale(1.1)", bg: "#92bcb5", color: darkTheme === "dark" ? "black" : "black" }} mt="10px" p={["15px 15px", "20px 20px", "25px 25px"]} onClick={handleClick} fontSize={["md", "lg", "xl"]} bg={darkTheme === "dark" ? "#48B3E9 " : "#48B3E9 "} color={darkTheme === "dark" ? "white" : "white"} variant='solid' leftIcon={<DownloadIcon />}>
                             <a href="https://drive.google.com/uc?export=download&id=1fHs0WXpCaHcAUypp7c8C1qIGgH1xVYuH"  >Resume</a></Button>
@@ -71,10 +68,9 @@ function Homepage() {
                             <a href="https://www.linkedin.com/in/rahul-das-787a66246/" rel="noreferrer" target="_blank"><Button _hover={{ transform: "scale(1.13)", color: "black", bg: "#92bcb5" }} pr="0px" pl="5px" fontSize={["2xl", "3xl", "4xl"]} bg={darkTheme === "dark" ? "#48B3E9 " : "#48B3E9 "} color={darkTheme === "dark" ? "white" : "white"} variant='solid' leftIcon={<AiOutlineLinkedin />}></Button></a>
                         </Box>
                     </Box>
-
                 </Box>
                 <Box _hover={{ transform: "scale(1.03)", transitionProperty: "transform", transitionDuration: "0.5s" }} bg={darkTheme === "dark" ? "#C4A9EC" : "#48B3E9"} p="3px" w={["43%", "30%", "31%"]} m="20px auto 40px auto" borderRadius={["7%", "5%", "5%"]} >
-                    <Image boxShadow="xl" w="100%" borderRadius={["4%", "3%", "3%"]} src="https://user-images.githubusercontent.com/107567053/221118935-5bcb4606-ce9a-4811-867b-1af058b099c8.jpg" alt="img" />
+                    <Image className="home-img" boxShadow="xl" w="100%" borderRadius={["4%", "3%", "3%"]} src="https://user-images.githubusercontent.com/107567053/221118935-5bcb4606-ce9a-4811-867b-1af058b099c8.jpg" alt="img" />
                 </Box>
             </Box>
         </Box>

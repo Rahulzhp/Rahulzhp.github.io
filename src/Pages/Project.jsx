@@ -54,23 +54,23 @@ function Project() {
 
                 {projectdata && projectdata.map((project) => {
                     return <Box className="projectouter">
-                        <Box display={["inline", "inline", "flex"]} justifyContent="space-between">
+                        <Box className="project-card" display={["inline", "inline", "flex"]} justifyContent="space-between">
                             <Image w={["100%", "97%", "59%"]} m="auto" src={project.img} alt="project-thumbnail" />
                             <Box w={["100%", "97%", "40%"]} m="auto">
-                                <Text fontSize={["2xl", "3xl", "4xl"]}>{project.name}</Text>
-                                <Text w={["100%", "90%", "70%"]} m="auto" fontFamily="inherit" textAlign="justify" fontSize={["sm", "md", "md"]}>{project.desc}
+                                <Text className="project-title" fontSize={["2xl", "3xl", "4xl"]}>{project.name}</Text>
+                                <Text className="project-description" w={["100%", "90%", "70%"]} m="auto" fontFamily="inherit" textAlign="justify" fontSize={["sm", "md", "md"]}>{project.desc}
                                     <Text fontSize={["sm", "md", "md"]} fontWeight="bold" >Project type :- {project.type} </Text>
 
                                 </Text>
                                 <Box textAlign="left" m="auto" p={["2px 0px", "2px 7px", "2px 1px"]} w={["99%", "93%", "70%"]}>
 
-                                    <Text fontSize={["13px", "15px", "16px"]} fontWeight="bold">Techstacks :- {project.techstack}</Text>
+                                    <Text className="project-tech-stack" fontSize={["13px", "15px", "16px"]} fontWeight="bold">Techstacks :- {project.techstack}</Text>
                                 </Box>
                                 <Box display="flex" w={["100%", "80%", "100%"]} m="auto" justifyContent="space-around">
                                     {/* <Button  _hover={{bg:"#4E406F", color:"#ffffff"}} mt="10px" p={["5px 5px", "10px 10px", "10px 10px"]} fontSize={["md", "lg", ";g"]} bg="#C1B6DB" color="#13022c" border="none" variant='solid' leftIcon={<BiLinkExternal />}><a href={project.livelink} rel="noreferrer" target="_blank">Live</a></Button>
                                             <Button _hover={{bg:"#4E406F", color:"#ffffff"}} mt="10px" p={["5px 5px", "10px 10px", "10px 10px"]} fontSize={["md", "lg", "lg"]} bg="#C1B6DB" color="#13022c" border="none" variant='solid' leftIcon={<BsGithub />}><a href={project.gitlink} rel="noreferrer" target="_blank">Github</a></Button> */}
-                                    <Button as='a' target='_blank' href={project.livelink} _hover={{ bg: "#4E406F", color: "#ffffff" }} mt="10px" p={["5px 5px", "10px 10px", "10px 10px"]} fontSize={["md", "lg", "lg"]} bg="#C1B6DB" color="#13022c" border="none" variant='solid' leftIcon={<BiLinkExternal />}>Live</Button>
-                                    <Button as='a' target='_blank' href={project.gitlink} _hover={{ bg: "#4E406F", color: "#ffffff" }} mt="10px" p={["5px 5px", "10px 10px", "10px 10px"]} fontSize={["md", "lg", "lg"]} bg="#C1B6DB" color="#13022c" border="none" variant='solid' leftIcon={<BsGithub />}>Github</Button>
+                                    <Button className="project-deployed-link" as='a' target='_blank' href={project.livelink} _hover={{ bg: "#4E406F", color: "#ffffff" }} mt="10px" p={["5px 5px", "10px 10px", "10px 10px"]} fontSize={["md", "lg", "lg"]} bg="#C1B6DB" color="#13022c" border="none" variant='solid' leftIcon={<BiLinkExternal />}>Live</Button>
+                                    <Button className="project-github-link" as='a' target='_blank' href={project.gitlink} _hover={{ bg: "#4E406F", color: "#ffffff" }} mt="10px" p={["5px 5px", "10px 10px", "10px 10px"]} fontSize={["md", "lg", "lg"]} bg="#C1B6DB" color="#13022c" border="none" variant='solid' leftIcon={<BsGithub />}>Github</Button>
                                 </Box>
                             </Box>
                         </Box>
