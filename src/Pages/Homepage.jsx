@@ -62,7 +62,7 @@ function Homepage() {
                                 MERN stack. Skilled, collaborative and attentive developer with a drive to develop the most relevant products. Always looking forward to learn something new to strengthen skills learned.</Text>
                         </Box>
                         <Button id="resume-button-2" _hover={{ transform: "scale(1.1)", bg: "#92bcb5", color: darkTheme === "dark" ? "black" : "black" }} mt="10px" p={["15px 15px", "20px 20px", "25px 25px"]} onClick={handleClick} fontSize={["md", "lg", "xl"]} bg={darkTheme === "dark" ? "#48B3E9 " : "#48B3E9 "} color={darkTheme === "dark" ? "white" : "white"} variant='solid' leftIcon={<DownloadIcon />}>
-                            <a href="https://drive.google.com/uc?export=download&id=1fHs0WXpCaHcAUypp7c8C1qIGgH1xVYuH"  >Resume</a></Button>
+                            <a id="resume-link-2" href="https://drive.google.com/uc?export=download&id=1fHs0WXpCaHcAUypp7c8C1qIGgH1xVYuH"  >Resume</a></Button>
                         <Box mt="15px" gap="15px" display="flex" color="#13022c">
                             <a href="https://github.com/Rahulzhp" rel="noreferrer" target="_blank"><Button _hover={{ transform: "scale(1.13)", bg: "#92bcb5", color: "black" }} pr="0px" pl="5px" fontSize={["2xl", "3xl", "4xl"]} bg={darkTheme === "dark" ? "#48B3E9 " : "#48B3E9 "} color={darkTheme === "dark" ? "white" : "white"} variant='solid' leftIcon={<AiOutlineGithub />}></Button></a>
                             <a href="https://www.linkedin.com/in/rahul-das-787a66246/" rel="noreferrer" target="_blank"><Button _hover={{ transform: "scale(1.13)", color: "black", bg: "#92bcb5" }} pr="0px" pl="5px" fontSize={["2xl", "3xl", "4xl"]} bg={darkTheme === "dark" ? "#48B3E9 " : "#48B3E9 "} color={darkTheme === "dark" ? "white" : "white"} variant='solid' leftIcon={<AiOutlineLinkedin />}></Button></a>
@@ -83,5 +83,3 @@ function Homepage() {
 }
 
 export default Homepage;
-
-// {darkTheme==="dark"? "white" : "#13022c"}

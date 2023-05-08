@@ -61,7 +61,7 @@ function Navbar() {
                 <Link className="nav-link contact" display="flex">
                     <AnchorLink href='#contact'><Text color={darkTheme === "dark" ? "gray" : "white"} fontFamily="inherit" fontWeight="500" fontSize={['sm', 'sm', 'lg']}>Contact</Text></AnchorLink>
                 </Link>
-                <Text className="nav-link resume" id="resume-button-1" onClick={handleClick} color={darkTheme === "dark" ? "gray" : "white"} fontFamily="inherit" fontWeight="500" fontSize={['sm', 'sm', 'lg']}><a href="https://drive.google.com/uc?export=download&id=1fHs0WXpCaHcAUypp7c8C1qIGgH1xVYuH">Resume</a></Text>
+                <Text className="nav-link resume" onClick={handleClick} color={darkTheme === "dark" ? "gray" : "white"} fontFamily="inherit" fontWeight="500" fontSize={['sm', 'sm', 'lg']}><a id="resume-link-1" href="https://drive.google.com/uc?export=download&id=1fHs0WXpCaHcAUypp7c8C1qIGgH1xVYuH">Resume</a></Text>
             </Box>
 
 
@@ -83,7 +83,7 @@ function Navbar() {
                 <Link className="nav-link contact" display="flex">
                     <AnchorLink href='#contact'><Text color={darkTheme === "dark" ? "gray" : "white"} fontFamily="inherit" fontWeight="500" fontSize={['sm', 'sm', 'lg']}>Contact</Text></AnchorLink>
                 </Link>
-                <Text className="nav-link resume" id="resume-button-1" color={darkTheme === "dark" ? "gray" : "white"} fontFamily="inherit" fontWeight="500" fontSize={['sm', 'sm', 'lg']}><a href="https://drive.google.com/uc?export=download&id=1fHs0WXpCaHcAUypp7c8C1qIGgH1xVYuH">Resume</a></Text>
+                <Text className="nav-link resume" id="resume-button-1" color={darkTheme === "dark" ? "gray" : "white"} fontFamily="inherit" fontWeight="500" fontSize={['sm', 'sm', 'lg']}><a id="resume-link-1" href="https://drive.google.com/uc?export=download&id=1fHs0WXpCaHcAUypp7c8C1qIGgH1xVYuH">Resume</a></Text>
             </Box> : ""
         }
 
