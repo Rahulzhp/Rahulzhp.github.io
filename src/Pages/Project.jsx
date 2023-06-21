@@ -4,7 +4,6 @@ import { BiLinkExternal } from "react-icons/bi";
 import Project_manegment_Image from "../Images/dashboard.png"
 
 function Project() {
-
     let projectdata = [
         {
             name: "Project Management",
