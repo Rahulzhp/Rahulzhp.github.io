@@ -1,8 +1,7 @@
-import { Box, Image, Text } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import { IconName, GiHamburgerMenu } from "react-icons/gi";
 import { CiTextAlignJustify } from "react-icons/ci";
 import { ThemeContext } from "../ThemeContext/ThemeContextProvider";
 import "./Res.css"
@@ -13,7 +12,7 @@ function Navbar() {
     const [isscroll, setisscroll] = useState(false);
     const [ham, setHam] = useState(false)
 
-    const { darkTheme, setdarkTheme } = useContext(ThemeContext);
+    const { darkTheme } = useContext(ThemeContext);
 
     function isScrolling() {
         if (window.scrollY > 80) {

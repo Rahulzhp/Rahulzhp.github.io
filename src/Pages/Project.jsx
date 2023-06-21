@@ -1,6 +1,7 @@
 import { Box, Button, Image, Text } from "@chakra-ui/react";
 import { BsGithub } from "react-icons/bs";
 import { BiLinkExternal } from "react-icons/bi";
+import Project_manegment_Image from "../Images/dashboard.png"
 
 
 function Project() {
@@ -8,7 +9,7 @@ function Project() {
     let projectdata = [
         {
             name: "Project Management",
-            img: "https://drive.google.com/file/d/1JsdlroOKIC_oAlLZHcnwUL68ZfTbXFUB/view?usp=sharing",
+            img: `${Project_manegment_Image}`,
             type: "Individual",
             desc: "Online Project Management Clone is a project where User's can manage their project acording to their requirements. In dashboard their is Chart where user's can analyze their project.",
             techstack: "HTML, CSS, JavaScript, React JS, Node JS, Express JS, MONGODB - Atlas",
