@@ -7,6 +7,15 @@ function Project() {
 
     let projectdata = [
         {
+            name: "Online Project Management",
+            img: "https://github.com/Rahulzhp/photos/assets/107567053/8cc6f1a6-c6bd-49f5-9fcf-bac4a1909309",
+            type: "Individual",
+            desc: "Online Project Management Clone is a project where User's can manage their project acording to their requirements. In dashboard their is Chart where user's can analyze their project.",
+            techstack: "HTML, CSS, JavaScript, React, Node JS, Express JS, MONGODB - Atlas",
+            livelink: "https://64925bb990148b00c9d4d9e6--heroic-vacherin-42ee66.netlify.app/",
+            gitlink: "https://github.com/Rahulzhp/onlinemang"
+        },
+        {
             name: "Beauty-Bebo Clone",
             img: "https://i.ibb.co/wyz1tzx/Screenshot-185.png",
             type: "Individual",
@@ -43,6 +52,7 @@ function Project() {
             livelink: "https://blooming-cart.netlify.app/",
             gitlink: "https://github.com/Rahulzhp/Blooming-Cart"
         },
+
 
     ]
 
