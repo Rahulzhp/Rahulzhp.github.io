@@ -7,11 +7,11 @@ function Project() {
 
     let projectdata = [
         {
-            name: "Online Project Management",
-            img: "https://github.com/Rahulzhp/photos/assets/107567053/8cc6f1a6-c6bd-49f5-9fcf-bac4a1909309",
+            name: "Project Management",
+            img: "https://drive.google.com/file/d/1JsdlroOKIC_oAlLZHcnwUL68ZfTbXFUB/view?usp=sharing",
             type: "Individual",
             desc: "Online Project Management Clone is a project where User's can manage their project acording to their requirements. In dashboard their is Chart where user's can analyze their project.",
-            techstack: "HTML, CSS, JavaScript, React, Node JS, Express JS, MONGODB - Atlas",
+            techstack: "HTML, CSS, JavaScript, React JS, Node JS, Express JS, MONGODB - Atlas",
             livelink: "https://64925bb990148b00c9d4d9e6--heroic-vacherin-42ee66.netlify.app/",
             gitlink: "https://github.com/Rahulzhp/onlinemang"
         },
