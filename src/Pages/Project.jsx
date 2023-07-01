@@ -11,7 +11,7 @@ function Project() {
             type: "Individual",
             desc: "Online Project Management Clone is a project where User's can manage their project acording to their requirements. In dashboard their is Chart where user's can analyze their project.",
             techstack: "HTML, CSS, JavaScript, React JS, Node JS, Express JS, MONGODB - Atlas",
-            livelink: "https://64925bb990148b00c9d4d9e6--heroic-vacherin-42ee66.netlify.app/",
+            livelink: "https://649fb0e79bc5c773de24baa4--radiant-puppy-bdbf35.netlify.app/",
             gitlink: "https://github.com/Rahulzhp/onlinemang"
         },
         {
